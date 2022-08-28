@@ -1,6 +1,8 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
+  list-style: none;
 }
 body {
   height: 100vh;
@@ -10,6 +12,24 @@ body {
   line-height: 1.5;
   letter-spacing: 0.03em;
   --brand-color: #757575;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  border: 1px solid black;
+}
+.section {
+  width: 100%;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.links {
+  display: flex;
+  margin-left: 100px;
+}
+.main {
 }
 .links .link:hover {
   color: #2196f3;
@@ -107,6 +127,9 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #2196f3;
+  margin-left: 120px;
+  padding-top: 23px;
+  padding-bottom: 24px;
 }
 .studio {
   color: #000000;
