@@ -123,6 +123,10 @@ flex-direction: column;
   background-color: #f5f4fa;
   border-radius: 4px;
 }
+.card-set {
+  display: flex;
+  flex-wrap: wrap;
+}
 .wszystkie {
   width: 121px;
   height: 38px;
