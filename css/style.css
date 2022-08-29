@@ -19,7 +19,6 @@ body {
   width: 1200px;
   margin: auto;
   display: flex;
-  border: 1px solid black;
 }
 .section {
   width: 100%;
@@ -28,10 +27,12 @@ body {
 }
 .links {
   display: flex;
-  margin-left: 100px;
+ justify-content: flex-start;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
-.link {
-  margin: 46px;
+.header {
+  align-items: baseline;
 }
 .main-block {
   background-color: #2f303a;
@@ -137,7 +138,7 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #2196f3;
-  margin-left: 120px;
+  margin-left: 50px;
   padding-top: 23px;
   padding-bottom: 24px;
 }
