@@ -27,12 +27,15 @@ body {
 }
 .links {
   display: flex;
- justify-content: flex-start;
+  margin-left: 80px;
   margin-top: 32px;
   margin-bottom: 32px;
 }
+.link {
+  margin: 46px;
+}
 .header {
-  align-items: baseline;
+  align-items:baseline;
 }
 .main-block {
   background-color: #2f303a;
