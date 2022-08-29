@@ -4,6 +4,7 @@
   box-sizing: border-box;
   list-style: none;
 }
+
 body {
   height: 100vh;
   font-family: "Roboto", sans-serif;
@@ -29,7 +30,17 @@ body {
   display: flex;
   margin-left: 100px;
 }
-.main {
+.link {
+  margin: 46px;
+}
+.main-block {
+  padding-top: 280px;
+  background-color: #2f303a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 280px;
 }
 .links .link:hover {
   color: #2196f3;
