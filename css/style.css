@@ -41,6 +41,7 @@ flex-direction: column;
   margin-left: 80px;
   margin-top: 32px;
   margin-bottom: 32px;
+  align-items: center;
 }
 .link {
   margin: 46px;
