@@ -25,7 +25,6 @@ body {
 .container {
   width: 1200px;
   margin: auto;
-  display: flex;
   border: 1px solid #212121;
 }
 .main-block {
@@ -49,14 +48,16 @@ flex-direction: column;
 .contact {
   margin-top: 32px;
   margin-bottom: 32px;
+  margin-right: auto;
 }
 .main-block {
-  background-color: #2f303a;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  height: 600px;
+padding-top: 280px;
+background-color: #2F303A;
+display:flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+padding-bottom: 280px;
 }
 .links .link:hover {
   color: #2196f3;
@@ -127,6 +128,7 @@ flex-direction: column;
 .card-set {
   display: flex;
   flex-wrap: wrap;
+  gap: 10px;
 }
 .wszystkie {
   width: 121px;
