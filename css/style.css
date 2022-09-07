@@ -27,6 +27,10 @@ body {
   margin: auto;
   border: 1px solid #212121;
 }
+.navigation {
+  display: flex;
+  align-items: center;
+}
 .main-block {
 flex-direction: column;
 }
@@ -36,7 +40,7 @@ flex-direction: column;
   padding-bottom: 94px;
 }
 .links {
-  display: flex;
+  display:flex;
   margin-left: 80px;
   margin-top: 32px;
   margin-bottom: 32px;
@@ -44,10 +48,10 @@ flex-direction: column;
 }
 .link {
   margin: 46px;
+ 
 }
 .contact {
-  margin-top: 32px;
-  margin-bottom: 32px;
+  display: flex;
   margin-right: auto;
 }
 .main-block {
@@ -152,6 +156,7 @@ padding-bottom: 280px;
 }
 
 .logo {
+  display: flex;
   font-family: "Raleway";
   font-style: normal;
   text-decoration: none;
