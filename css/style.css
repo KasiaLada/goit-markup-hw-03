@@ -10,6 +10,7 @@
   box-sizing: border-box;
 }
 
+
 body {
   height: 100vh;
   font-family: "Roboto", sans-serif;
@@ -52,10 +53,7 @@ flex-direction: column;
   margin: 46px;
  
 }
-.contact {
-  display: flex;
-  margin-right: auto;
-}
+
 .main-block {
 padding-top: 280px;
 background-color: #2F303A;
@@ -142,8 +140,16 @@ padding-bottom: 280px;
 }
 .images-list {
   display: flex;
-  gap: 30px;
-  margin-left:15px;
+  gap: 44px;
+  
+}
+.buttons-list {
+  display: flex;
+  justify-content: center;
+}
+.buttons-list .click {
+  margin: 100px 8px 50px 0;
+  
 }
 .wszystkie {
   width: 121px;
@@ -176,7 +182,6 @@ padding-bottom: 280px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #2196f3;
-  margin-left: 50px;
   padding-top: 28px;
   padding-bottom: 24px;
 }
@@ -205,12 +210,13 @@ padding-bottom: 280px;
 .name {
   display: block;
   font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  color: #212121;
-  
+  font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+margin: 30px 99px 10px 99px;
 }
 .about .about-lorem {
   font-style: normal;
@@ -256,8 +262,8 @@ padding-bottom: 280px;
 }
 .our-team-list {
   display: flex;
-  gap: 25px;
-  margin-left:20px;
+  gap: 39px;
+  
 }
 .team-member-area {
   display: flex;
@@ -267,12 +273,22 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0p
 border-radius: 0px 0px 4px 4px;
 
 }
+.team-member-profession {
+  font-weight: 400;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+color: #757575;
+margin-bottom: 30px;
+}
 .footer {
   background-color: #2f303a;
 }
 .footer .logo .studio {
   color: #ffffff;
 }
+
 .address {
   font-style: normal;
   font-weight: 400;
