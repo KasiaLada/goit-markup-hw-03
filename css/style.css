@@ -33,6 +33,21 @@ body {
   display: flex;
   align-items: center;
 }
+.links {
+  display:flex;
+  margin-left: 80px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  align-items: center;
+  gap: 46px;
+}
+
+.contact .link {
+  margin-right: auto;
+  justify-content: flex-end;
+  gap: 50;
+}
+
 .main-block {
 flex-direction: column;
 }
@@ -40,18 +55,6 @@ flex-direction: column;
   width: 100%;
   padding-top: 94px;
   padding-bottom: 94px;
-}
-.links {
-  display:flex;
-  margin-left: 80px;
-  margin-top: 32px;
-  margin-bottom: 32px;
-  align-items: center;
-  
-}
-.link {
-  margin: 46px;
- 
 }
 
 .main-block {
@@ -90,6 +93,7 @@ padding-bottom: 280px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
+  margin-top: 40px;
 }
 .buttons .click:hover {
   color: #ffffff;
@@ -150,6 +154,36 @@ padding-bottom: 280px;
 .buttons-list .click {
   margin: 100px 8px 50px 0;
   
+}
+.projects {
+  display: flex;
+  gap: 39px;
+  flex-wrap: wrap;
+}
+.projects-item {
+  flex-basis: calc((100% - 60px) / 3);
+  background-color: #FFFFFF;
+border: 1px solid #EEEEEE;
+}
+
+.name-projects {
+  display: block;
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: #212121;
+margin: 20px 24px 4px 24px;
+
+}
+.type {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
+color: #757575;
+margin: 20px 0 20px 24px;
+
 }
 .wszystkie {
   width: 121px;
