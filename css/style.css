@@ -178,7 +178,10 @@ margin: 24px 24px 4px 24px;
 
 }
 img {
-  display:block
+  display:block;
+  width: 100%;
+height: auto;
+
 }
 .figcaption {
   border-right: 1px solid #EEEEEE;
