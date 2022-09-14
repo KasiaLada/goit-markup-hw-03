@@ -165,7 +165,7 @@ padding-bottom: 280px;
 .projects-item {
   flex-basis: calc((100% - 60px) / 3);
   background-color: #FFFFFF;
-  border: 1px solid #EEEEEE;
+  
   
 }
 
@@ -186,14 +186,14 @@ img {
 height: auto;
 
 }
-/*.figcaption {
+.figcaption {
   border-right: 1px solid #EEEEEE;
   border-left: 1px solid #EEEEEE;
   border-bottom: 1px solid #EEEEEE;
   margin: 0; padding: 0;
   
 }
-*/
+
 .type {
 font-weight: 400;
 font-size: 16px;
